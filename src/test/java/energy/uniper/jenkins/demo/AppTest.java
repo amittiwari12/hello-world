@@ -3,7 +3,7 @@ package energy.uniper.jenkins.demo;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import static java.lang.System;
+
 /**
  * Unit test for simple App.
  */
@@ -33,7 +33,7 @@ public class AppTest
      */
     public void testApp()
     {
-		out.println("Welcome to Dev +Ops");
+		System.out.println("Welcome to Dev +Ops");
         assertTrue( true );
     }
 }
